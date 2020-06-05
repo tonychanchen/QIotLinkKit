@@ -31,27 +31,27 @@
 		01CB90E18603FE6BC8664711138524A6 /* Pods-QIotLinkKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		04DBF5E6D21A5F7A13FCABCCB6EBD2E6 /* QIotLinkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QIotLinkKit-prefix.pch"; sourceTree = "<group>"; };
 		0695642F824B1F649ADCEBE049BB8039 /* QIotLinkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.release.xcconfig; sourceTree = "<group>"; };
-		0F238F6453F21F4F1064F54B15A1EC78 /* QIotLinkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QIotLinkKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F238F6453F21F4F1064F54B15A1EC78 /* QIotLinkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QIotLinkKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		15028AB22B4482D69515CE193D066D5C /* QIotLinkKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QIotLinkKit.modulemap; sourceTree = "<group>"; };
-		2BBEB6D6F74FF03B0BF7F33C5CDBBE1C /* QIotLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QIotLinkKit.framework; path = QIotLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBEB6D6F74FF03B0BF7F33C5CDBBE1C /* QIotLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QIotLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A2D62C0FB0583EA688B0293BA4D9447 /* QIotLinkKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QIotLinkKit-umbrella.h"; sourceTree = "<group>"; };
-		5AC00A4E1E73B8B7FDD99C7F2A7FB716 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AC00A4E1E73B8B7FDD99C7F2A7FB716 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EC16187031411D5AA5D39589031B334 /* QIotLinkKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.debug.xcconfig; sourceTree = "<group>"; };
 		7346A0E35DD877B3A327E192CB0E044F /* Pods-QIotLinkKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QIotLinkKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7EFD7BD8DCC588686D867C68F9F8F3A7 /* QIotLinkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QIotLinkKit-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4052EBA09E5C069A9F77DF9A371394A /* QIotLinkKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QIotLinkKit-Info.plist"; sourceTree = "<group>"; };
 		AA8BD508129602836AE2F6F212C0EAE2 /* Pods-QIotLinkKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QIotLinkKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AF8F01B17E9577EB4CA641A4FDF2EEC7 /* Pods-QIotLinkKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-Info.plist"; sourceTree = "<group>"; };
 		B2D373DD4492BCAC3D3AD8ECA0E71798 /* QCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCObject.m; path = QIotLinkKit/Classes/QCObject.m; sourceTree = "<group>"; };
-		C32A8391BB07748D52086C04252C2CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C32A8391BB07748D52086C04252C2CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C761554365152864FF9A2858C1A897C3 /* Pods-QIotLinkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C881E9AF2BC2533F9FA5A061A273C5CE /* Pods-QIotLinkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8F6948EB3BAAAE9041EB4F70D6805D7 /* Pods-QIotLinkKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QIotLinkKit_Example.modulemap"; sourceTree = "<group>"; };
 		C9F935280FE373929BAB3292595AD00D /* QCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCObject.h; path = QIotLinkKit/Classes/QCObject.h; sourceTree = "<group>"; };
 		DB58515BE360E94F6A7247A253CDB22C /* Pods-QIotLinkKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QIotLinkKit_Example-dummy.m"; sourceTree = "<group>"; };
-		F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QIotLinkKit_Example.framework; path = "Pods-QIotLinkKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QIotLinkKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCAA08D63F90C6B583039473DA884040 /* Pods-QIotLinkKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QIotLinkKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -432,8 +432,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
