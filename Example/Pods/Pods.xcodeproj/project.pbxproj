@@ -6,23 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		FF6B68FCEA9154F5B5C5A5A4443506C3 /* QIotLinkKit */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = F0ABA097B8A13EFEB50E45E34411344F /* Build configuration list for PBXAggregateTarget "QIotLinkKit" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = QIotLinkKit;
-			productName = QIotLinkKit;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		2E28C3489501DA029959763EBD84719C /* Pods-QIotLinkKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EC6F79011A79052BA9AD76FB2487F /* Pods-QIotLinkKit_Example-dummy.m */; };
-		62562E1C6C835552E062C95A8C1A35B2 /* Pods-QIotLinkKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F0BFD289B8981CD9A654283CB2C0AE /* Pods-QIotLinkKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFB784ED80B017122DEE43EF1DA640A /* QCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F935280FE373929BAB3292595AD00D /* QCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E28C3489501DA029959763EBD84719C /* Pods-QIotLinkKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58515BE360E94F6A7247A253CDB22C /* Pods-QIotLinkKit_Example-dummy.m */; };
+		62562E1C6C835552E062C95A8C1A35B2 /* Pods-QIotLinkKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7346A0E35DD877B3A327E192CB0E044F /* Pods-QIotLinkKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		730BA58C53169F1C94FC9FE4FEC11637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD5DA0839FAED14C7FA308C8A48AB819 /* QIotLinkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD7BD8DCC588686D867C68F9F8F3A7 /* QIotLinkKit-dummy.m */; };
+		B7186CEE75F64481A0D1A3C61A3AF995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DBDC14895423837A3EF6332948F40B6C /* QCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D373DD4492BCAC3D3AD8ECA0E71798 /* QCObject.m */; };
+		FC3470071635E3B88FF7BE424F5D4E86 /* QIotLinkKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2D62C0FB0583EA688B0293BA4D9447 /* QIotLinkKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,25 +28,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044130B570D2DE44213F6E67EA7AD419 /* Pods-QIotLinkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0EC871BD1D606018B9FF90B4450C16E6 /* Pods-QIotLinkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		180952B7A66AFD07CC964B95FF74BD2A /* QIotLinkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.release.xcconfig; sourceTree = "<group>"; };
-		20E7CA32595237A45C4346F466703B48 /* Pods-QIotLinkKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-Info.plist"; sourceTree = "<group>"; };
-		229575587117808DAC3CCECB5AB1E4F0 /* Pods-QIotLinkKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E3EC6F79011A79052BA9AD76FB2487F /* Pods-QIotLinkKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QIotLinkKit_Example-dummy.m"; sourceTree = "<group>"; };
+		01CB90E18603FE6BC8664711138524A6 /* Pods-QIotLinkKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		04DBF5E6D21A5F7A13FCABCCB6EBD2E6 /* QIotLinkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QIotLinkKit-prefix.pch"; sourceTree = "<group>"; };
+		0695642F824B1F649ADCEBE049BB8039 /* QIotLinkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.release.xcconfig; sourceTree = "<group>"; };
+		0F238F6453F21F4F1064F54B15A1EC78 /* QIotLinkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QIotLinkKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15028AB22B4482D69515CE193D066D5C /* QIotLinkKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QIotLinkKit.modulemap; sourceTree = "<group>"; };
+		2BBEB6D6F74FF03B0BF7F33C5CDBBE1C /* QIotLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QIotLinkKit.framework; path = QIotLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37606C5F90DC7BB780D50FC477195454 /* Pods-QIotLinkKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QIotLinkKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83F0BFD289B8981CD9A654283CB2C0AE /* Pods-QIotLinkKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QIotLinkKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8779DD19637330CF83355FA969EBCE31 /* Pods-QIotLinkKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QIotLinkKit_Example.modulemap"; sourceTree = "<group>"; };
-		8A8E8E97D31919EED25C324F1BF9EB84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FD4C858A35ACBA156DCF91979DEB967 /* QIotLinkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QIotLinkKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QIotLinkKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60DFD151534255B60B7A51030D4C806 /* QIotLinkKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.debug.xcconfig; sourceTree = "<group>"; };
-		F7CD2696192C22C0340D90F6DDC06CDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A2D62C0FB0583EA688B0293BA4D9447 /* QIotLinkKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QIotLinkKit-umbrella.h"; sourceTree = "<group>"; };
+		5AC00A4E1E73B8B7FDD99C7F2A7FB716 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6EC16187031411D5AA5D39589031B334 /* QIotLinkKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QIotLinkKit.debug.xcconfig; sourceTree = "<group>"; };
+		7346A0E35DD877B3A327E192CB0E044F /* Pods-QIotLinkKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QIotLinkKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EFD7BD8DCC588686D867C68F9F8F3A7 /* QIotLinkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QIotLinkKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4052EBA09E5C069A9F77DF9A371394A /* QIotLinkKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QIotLinkKit-Info.plist"; sourceTree = "<group>"; };
+		AA8BD508129602836AE2F6F212C0EAE2 /* Pods-QIotLinkKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QIotLinkKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF8F01B17E9577EB4CA641A4FDF2EEC7 /* Pods-QIotLinkKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QIotLinkKit_Example-Info.plist"; sourceTree = "<group>"; };
+		B2D373DD4492BCAC3D3AD8ECA0E71798 /* QCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCObject.m; path = QIotLinkKit/Classes/QCObject.m; sourceTree = "<group>"; };
+		C32A8391BB07748D52086C04252C2CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C761554365152864FF9A2858C1A897C3 /* Pods-QIotLinkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C881E9AF2BC2533F9FA5A061A273C5CE /* Pods-QIotLinkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QIotLinkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8F6948EB3BAAAE9041EB4F70D6805D7 /* Pods-QIotLinkKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QIotLinkKit_Example.modulemap"; sourceTree = "<group>"; };
+		C9F935280FE373929BAB3292595AD00D /* QCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCObject.h; path = QIotLinkKit/Classes/QCObject.h; sourceTree = "<group>"; };
+		DB58515BE360E94F6A7247A253CDB22C /* Pods-QIotLinkKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QIotLinkKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QIotLinkKit_Example.framework; path = "Pods-QIotLinkKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA08D63F90C6B583039473DA884040 /* Pods-QIotLinkKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QIotLinkKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62D6C317471C390B77F78B0AC74DC232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7186CEE75F64481A0D1A3C61A3AF995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C80F9FD5A53A837C6739485C757C0FBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,50 +75,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		021EE062696FD35C98CEE4886FFA9017 /* Development Pods */ = {
+		0034CBD03EC83920FFD18D8E94E0C988 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5921E6DC8143FD10FA6861FCDD2867B7 /* QIotLinkKit */,
+				F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */,
+				2BBEB6D6F74FF03B0BF7F33C5CDBBE1C /* QIotLinkKit.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		58C1C0EA527A13BD868B9DE6185FEFFF /* Pod */ = {
+		27FA9C761C2E58DE1C6B73F655B94F60 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7CD2696192C22C0340D90F6DDC06CDF /* LICENSE */,
-				9FD4C858A35ACBA156DCF91979DEB967 /* QIotLinkKit.podspec */,
-				8A8E8E97D31919EED25C324F1BF9EB84 /* README.md */,
+				49155B6CCAE93E935CF92B95DFC62484 /* Pods-QIotLinkKit_Example */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5921E6DC8143FD10FA6861FCDD2867B7 /* QIotLinkKit */ = {
+		2B58D002D4551861B9E6491EF39E92DE /* QIotLinkKit */ = {
 			isa = PBXGroup;
 			children = (
-				58C1C0EA527A13BD868B9DE6185FEFFF /* Pod */,
-				5945C66BDF059C925288CFEC325C519F /* Support Files */,
+				C9F935280FE373929BAB3292595AD00D /* QCObject.h */,
+				B2D373DD4492BCAC3D3AD8ECA0E71798 /* QCObject.m */,
+				41370EAA34667A8AE317E3589012F80F /* Pod */,
+				55E4B2242D4F4EB4FF5AAEB3913186D0 /* Support Files */,
 			);
 			name = QIotLinkKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5945C66BDF059C925288CFEC325C519F /* Support Files */ = {
+		2CA6CED8A708B14ACF42716E71BBF58F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F60DFD151534255B60B7A51030D4C806 /* QIotLinkKit.debug.xcconfig */,
-				180952B7A66AFD07CC964B95FF74BD2A /* QIotLinkKit.release.xcconfig */,
+				2B58D002D4551861B9E6491EF39E92DE /* QIotLinkKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		41370EAA34667A8AE317E3589012F80F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C32A8391BB07748D52086C04252C2CCC /* LICENSE */,
+				0F238F6453F21F4F1064F54B15A1EC78 /* QIotLinkKit.podspec */,
+				5AC00A4E1E73B8B7FDD99C7F2A7FB716 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		49155B6CCAE93E935CF92B95DFC62484 /* Pods-QIotLinkKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8F6948EB3BAAAE9041EB4F70D6805D7 /* Pods-QIotLinkKit_Example.modulemap */,
+				FCAA08D63F90C6B583039473DA884040 /* Pods-QIotLinkKit_Example-acknowledgements.markdown */,
+				01CB90E18603FE6BC8664711138524A6 /* Pods-QIotLinkKit_Example-acknowledgements.plist */,
+				DB58515BE360E94F6A7247A253CDB22C /* Pods-QIotLinkKit_Example-dummy.m */,
+				AA8BD508129602836AE2F6F212C0EAE2 /* Pods-QIotLinkKit_Example-frameworks.sh */,
+				AF8F01B17E9577EB4CA641A4FDF2EEC7 /* Pods-QIotLinkKit_Example-Info.plist */,
+				7346A0E35DD877B3A327E192CB0E044F /* Pods-QIotLinkKit_Example-umbrella.h */,
+				C761554365152864FF9A2858C1A897C3 /* Pods-QIotLinkKit_Example.debug.xcconfig */,
+				C881E9AF2BC2533F9FA5A061A273C5CE /* Pods-QIotLinkKit_Example.release.xcconfig */,
+			);
+			name = "Pods-QIotLinkKit_Example";
+			path = "Target Support Files/Pods-QIotLinkKit_Example";
+			sourceTree = "<group>";
+		};
+		55E4B2242D4F4EB4FF5AAEB3913186D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15028AB22B4482D69515CE193D066D5C /* QIotLinkKit.modulemap */,
+				7EFD7BD8DCC588686D867C68F9F8F3A7 /* QIotLinkKit-dummy.m */,
+				A4052EBA09E5C069A9F77DF9A371394A /* QIotLinkKit-Info.plist */,
+				04DBF5E6D21A5F7A13FCABCCB6EBD2E6 /* QIotLinkKit-prefix.pch */,
+				4A2D62C0FB0583EA688B0293BA4D9447 /* QIotLinkKit-umbrella.h */,
+				6EC16187031411D5AA5D39589031B334 /* QIotLinkKit.debug.xcconfig */,
+				0695642F824B1F649ADCEBE049BB8039 /* QIotLinkKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QIotLinkKit";
-			sourceTree = "<group>";
-		};
-		6CEC14509639D5C3D19D9EBB613384C4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -124,10 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				021EE062696FD35C98CEE4886FFA9017 /* Development Pods */,
+				2CA6CED8A708B14ACF42716E71BBF58F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6CEC14509639D5C3D19D9EBB613384C4 /* Products */,
-				D5FB2FEDEB242AA9B3A88B1779BD9B51 /* Targets Support Files */,
+				0034CBD03EC83920FFD18D8E94E0C988 /* Products */,
+				27FA9C761C2E58DE1C6B73F655B94F60 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,30 +181,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5FB2FEDEB242AA9B3A88B1779BD9B51 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D70BC8E344DDC0C64EED1D06F5198BCF /* Pods-QIotLinkKit_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D70BC8E344DDC0C64EED1D06F5198BCF /* Pods-QIotLinkKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8779DD19637330CF83355FA969EBCE31 /* Pods-QIotLinkKit_Example.modulemap */,
-				37606C5F90DC7BB780D50FC477195454 /* Pods-QIotLinkKit_Example-acknowledgements.markdown */,
-				229575587117808DAC3CCECB5AB1E4F0 /* Pods-QIotLinkKit_Example-acknowledgements.plist */,
-				2E3EC6F79011A79052BA9AD76FB2487F /* Pods-QIotLinkKit_Example-dummy.m */,
-				20E7CA32595237A45C4346F466703B48 /* Pods-QIotLinkKit_Example-Info.plist */,
-				83F0BFD289B8981CD9A654283CB2C0AE /* Pods-QIotLinkKit_Example-umbrella.h */,
-				044130B570D2DE44213F6E67EA7AD419 /* Pods-QIotLinkKit_Example.debug.xcconfig */,
-				0EC871BD1D606018B9FF90B4450C16E6 /* Pods-QIotLinkKit_Example.release.xcconfig */,
-			);
-			name = "Pods-QIotLinkKit_Example";
-			path = "Target Support Files/Pods-QIotLinkKit_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -171,6 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				62562E1C6C835552E062C95A8C1A35B2 /* Pods-QIotLinkKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FFF061C122BB7C6AE28D914109BB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFB784ED80B017122DEE43EF1DA640A /* QCObject.h in Headers */,
+				FC3470071635E3B88FF7BE424F5D4E86 /* QIotLinkKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +223,24 @@
 			productReference = F2D67A5035DFD7F44709B687D0E06AF6 /* Pods_QIotLinkKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FF6B68FCEA9154F5B5C5A5A4443506C3 /* QIotLinkKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4EFA5B6FF9B711C9E130EC78D75B60 /* Build configuration list for PBXNativeTarget "QIotLinkKit" */;
+			buildPhases = (
+				C97FFF061C122BB7C6AE28D914109BB9 /* Headers */,
+				4371676E285C5CC9C8A0B573DCA685B3 /* Sources */,
+				62D6C317471C390B77F78B0AC74DC232 /* Frameworks */,
+				C70F4A733A73735DDBE6DA81FD5F6D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QIotLinkKit;
+			productName = QIotLinkKit;
+			productReference = 2BBEB6D6F74FF03B0BF7F33C5CDBBE1C /* QIotLinkKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,7 +259,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6CEC14509639D5C3D19D9EBB613384C4 /* Products */;
+			productRefGroup = 0034CBD03EC83920FFD18D8E94E0C988 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,6 +277,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C70F4A733A73735DDBE6DA81FD5F6D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -240,6 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E28C3489501DA029959763EBD84719C /* Pods-QIotLinkKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4371676E285C5CC9C8A0B573DCA685B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDC14895423837A3EF6332948F40B6C /* QCObject.m in Sources */,
+				AD5DA0839FAED14C7FA308C8A48AB819 /* QIotLinkKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +316,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1C5CC632387BD0D6A644A1EE43FC750B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0695642F824B1F649ADCEBE049BB8039 /* QIotLinkKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QIotLinkKit/QIotLinkKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QIotLinkKit/QIotLinkKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QIotLinkKit/QIotLinkKit.modulemap";
+				PRODUCT_MODULE_NAME = QIotLinkKit;
+				PRODUCT_NAME = QIotLinkKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		359DFD6E7451FAF2CDEB50914470D579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC16187031411D5AA5D39589031B334 /* QIotLinkKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QIotLinkKit/QIotLinkKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QIotLinkKit/QIotLinkKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QIotLinkKit/QIotLinkKit.modulemap";
+				PRODUCT_MODULE_NAME = QIotLinkKit;
+				PRODUCT_NAME = QIotLinkKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -308,7 +432,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -378,22 +503,9 @@
 			};
 			name = Debug;
 		};
-		92CDC5F487CDF38D4486A1A24E9D993B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F60DFD151534255B60B7A51030D4C806 /* QIotLinkKit.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		9BD606142CD4B88664DC6FED5C397FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 044130B570D2DE44213F6E67EA7AD419 /* Pods-QIotLinkKit_Example.debug.xcconfig */;
+			baseConfigurationReference = C761554365152864FF9A2858C1A897C3 /* Pods-QIotLinkKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -426,7 +538,7 @@
 		};
 		B7D1F8DC2209E4C7738E7B9D22C55140 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC871BD1D606018B9FF90B4450C16E6 /* Pods-QIotLinkKit_Example.release.xcconfig */;
+			baseConfigurationReference = C881E9AF2BC2533F9FA5A061A273C5CE /* Pods-QIotLinkKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -458,20 +570,6 @@
 			};
 			name = Release;
 		};
-		ED4F11F2941C5B6AB51E82EF0FB5DBF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 180952B7A66AFD07CC964B95FF74BD2A /* QIotLinkKit.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -493,11 +591,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0ABA097B8A13EFEB50E45E34411344F /* Build configuration list for PBXAggregateTarget "QIotLinkKit" */ = {
+		4B4EFA5B6FF9B711C9E130EC78D75B60 /* Build configuration list for PBXNativeTarget "QIotLinkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92CDC5F487CDF38D4486A1A24E9D993B /* Debug */,
-				ED4F11F2941C5B6AB51E82EF0FB5DBF6 /* Release */,
+				359DFD6E7451FAF2CDEB50914470D579 /* Debug */,
+				1C5CC632387BD0D6A644A1EE43FC750B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
