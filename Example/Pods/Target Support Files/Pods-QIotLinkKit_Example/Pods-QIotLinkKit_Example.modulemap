@@ -1,0 +1,6 @@
+framework module Pods_QIotLinkKit_Example {
+  umbrella header "Pods-QIotLinkKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

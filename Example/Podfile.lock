@@ -1,0 +1,16 @@
+PODS:
+  - QIotLinkKit (0.1.0)
+
+DEPENDENCIES:
+  - QIotLinkKit (from `../`)
+
+EXTERNAL SOURCES:
+  QIotLinkKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QIotLinkKit: b52c95a8e423a7eaa37507e4d91d5dfd512804f4
+
+PODFILE CHECKSUM: c1a335eb3ea053276ce975a7d00d7dfef3f0f50d
+
+COCOAPODS: 1.9.3

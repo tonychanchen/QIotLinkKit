@@ -1,0 +1,6 @@
+framework module QIotLinkKit {
+  umbrella header "QIotLinkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
