@@ -1,0 +1,172 @@
+2020-06-09 02:29:20 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fef3ce6b500; archive(resolved)='<IDEArchive: 0x7fef3ce089b0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fef3ce6b500; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fef3ce66700; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce6a420; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce5f6e0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce5dd60; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce5c290; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce57cc0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3ce540e0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3c986ea0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='<IDEProvisioningBasicTeam: 0x7fef3ce4aba0; teamID='89W69LHLD3', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fef3c99c8f0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fef3c9bc2b0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fef3ce071a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fef3ce08ef0; archive = '<IDEArchive: 0x7fef3ce089b0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fef3ce6b500>
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2020-06-09 02:29:20 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app'
+2020-06-09 02:29:20 +0000  >>> Copying /Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app 
+2020-06-09 02:29:20 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-06-09 02:29:20 +0000  5822 bytes for ./_CodeSignature/CodeResources
+2020-06-09 02:29:20 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+2020-06-09 02:29:20 +0000  42 bytes for ./en.lproj/InfoPlist.strings
+2020-06-09 02:29:20 +0000  copying file ./QIotLinkKit_Example ... 
+2020-06-09 02:29:20 +0000  268000 bytes for ./QIotLinkKit_Example
+2020-06-09 02:29:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-09 02:29:20 +0000  1832 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-06-09 02:29:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-09 02:29:20 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-06-09 02:29:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-09 02:29:20 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-09 02:29:20 +0000  copying file ./Main.storyboardc/whP-gf-Uak-view-TpU-gO-2f1.nib ... 
+2020-06-09 02:29:20 +0000  1832 bytes for ./Main.storyboardc/whP-gf-Uak-view-TpU-gO-2f1.nib
+2020-06-09 02:29:20 +0000  copying file ./Main.storyboardc/UIViewController-whP-gf-Uak.nib ... 
+2020-06-09 02:29:20 +0000  920 bytes for ./Main.storyboardc/UIViewController-whP-gf-Uak.nib
+2020-06-09 02:29:20 +0000  copying file ./Main.storyboardc/Info.plist ... 
+2020-06-09 02:29:20 +0000  258 bytes for ./Main.storyboardc/Info.plist
+2020-06-09 02:29:20 +0000  copying file ./Frameworks/QIotLinkKit.framework/_CodeSignature/CodeResources ... 
+2020-06-09 02:29:20 +0000  1798 bytes for ./Frameworks/QIotLinkKit.framework/_CodeSignature/CodeResources
+2020-06-09 02:29:20 +0000  copying file ./Frameworks/QIotLinkKit.framework/QIotLinkKit ... 
+2020-06-09 02:29:20 +0000  384480 bytes for ./Frameworks/QIotLinkKit.framework/QIotLinkKit
+2020-06-09 02:29:20 +0000  copying file ./Frameworks/QIotLinkKit.framework/Info.plist ... 
+2020-06-09 02:29:20 +0000  745 bytes for ./Frameworks/QIotLinkKit.framework/Info.plist
+2020-06-09 02:29:20 +0000  copying file ./embedded.mobileprovision ... 
+2020-06-09 02:29:20 +0000  17311 bytes for ./embedded.mobileprovision
+2020-06-09 02:29:20 +0000  copying file ./Info.plist ... 
+2020-06-09 02:29:20 +0000  1180 bytes for ./Info.plist
+2020-06-09 02:29:20 +0000  copying file ./PkgInfo ... 
+2020-06-09 02:29:20 +0000  8 bytes for ./PkgInfo
+2020-06-09 02:29:20 +0000 [MT] /usr/bin/ditto exited with 0
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2020-06-09 02:29:20 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fef379fd880; bundleID='org.cocoapods.QIotLinkKit', path='<DVTFilePath:0x7fef3ce384c0:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce42010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef3cb19af0; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='(null)', teamID='89W69LHLD3', identifier='org.cocoapods.QIotLinkKit', executablePath='<DVTFilePath:0x7fef3ce3a700:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit'>', hardenedRuntime='0'>'>
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2020-06-09 02:29:20 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit' '-verify_arch' 'arm64e'
+2020-06-09 02:29:20 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-09 02:29:20 +0000 [MT] Skipping architecture thinning for item "QIotLinkKit" because arch "arm64e" wasn't found
+2020-06-09 02:29:20 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app/QIotLinkKit_Example' '-verify_arch' 'arm64e'
+2020-06-09 02:29:20 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-09 02:29:20 +0000 [MT] Skipping architecture thinning for item "QIotLinkKit_Example" because arch "arm64e" wasn't found
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionODRStep
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2020-06-09 02:29:20 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fef379fd880; bundleID='org.cocoapods.QIotLinkKit', path='<DVTFilePath:0x7fef3ce384c0:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce42010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef379f9e50; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='(null)', teamID='89W69LHLD3', identifier='org.cocoapods.QIotLinkKit', executablePath='<DVTFilePath:0x7fef3ce3a700:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit'>', hardenedRuntime='0'>'>
+2020-06-09 02:29:20 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app'
+2020-06-09 02:29:20 +0000 [MT] /usr/bin/xattr exited with 0
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2020-06-09 02:29:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fef379fd880; bundleID='org.cocoapods.QIotLinkKit', path='<DVTFilePath:0x7fef3ce384c0:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce42010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef3ce6e390; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='(null)', teamID='89W69LHLD3', identifier='org.cocoapods.QIotLinkKit', executablePath='<DVTFilePath:0x7fef3ce3a700:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit'>', hardenedRuntime='0'>'>: {
+}
+2020-06-09 02:29:20 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fef379fd880; bundleID='org.cocoapods.QIotLinkKit', path='<DVTFilePath:0x7fef3ce384c0:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce42010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef3ce73640; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='(null)', teamID='89W69LHLD3', identifier='org.cocoapods.QIotLinkKit', executablePath='<DVTFilePath:0x7fef3ce3a700:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit'>', hardenedRuntime='0'>'> to: /var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/entitlements~~~IpZNYK
+2020-06-09 02:29:20 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1' '--entitlements' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/entitlements~~~IpZNYK' '--preserve-metadata=identifier,flags,runtime' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework'
+2020-06-09 02:29:20 +0000  /var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.QIotLinkKit]
+2020-06-09 02:29:20 +0000 [MT] /usr/bin/codesign exited with 0
+2020-06-09 02:29:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fef3c9ce680; bundleID='com.tencent.iot.test', path='<DVTFilePath:0x7fef3ce08410:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce46630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef3ce7a8d0; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='{
+    "application-identifier" = "89W69LHLD3.com.tencent.iot.test";
+    "com.apple.developer.team-identifier" = 89W69LHLD3;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "89W69LHLD3.com.tencent.iot.test"
+    );
+}', teamID='89W69LHLD3', identifier='com.tencent.iot.test', executablePath='<DVTFilePath:0x7fef3ce30910:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/QIotLinkKit_Example'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "89W69LHLD3.com.tencent.iot.test";
+    "com.apple.developer.team-identifier" = 89W69LHLD3;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "89W69LHLD3.com.tencent.iot.test"
+    );
+}
+2020-06-09 02:29:20 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fef3c9ce680; bundleID='com.tencent.iot.test', path='<DVTFilePath:0x7fef3ce08410:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fef3ce46630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fef3ce73f50; name='Apple Development: Chao Ren (45U44KXTL9)', hash='7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1', serialNumber='08CEB03A9EA93174', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-04 08:22:28 +0000''>', entitlements='{
+    "application-identifier" = "89W69LHLD3.com.tencent.iot.test";
+    "com.apple.developer.team-identifier" = 89W69LHLD3;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "89W69LHLD3.com.tencent.iot.test"
+    );
+}', teamID='89W69LHLD3', identifier='com.tencent.iot.test', executablePath='<DVTFilePath:0x7fef3ce30910:'/Users/eagleychen/Desktop/Test/QIotLinkKit/Example/QIotLinkKit.xcarchive/Products/Applications/QIotLinkKit_Example.app/QIotLinkKit_Example'>', hardenedRuntime='0'>'> to: /var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/entitlements~~~PgQFjZ
+2020-06-09 02:29:20 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1' '--entitlements' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/entitlements~~~PgQFjZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app'
+2020-06-09 02:29:20 +0000  /var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root/Payload/QIotLinkKit_Example.app: signed app bundle with Mach-O universal (armv7 arm64) [com.tencent.iot.test]
+2020-06-09 02:29:20 +0000 [MT] /usr/bin/codesign exited with 0
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2020-06-09 02:29:20 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root' '/var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Packages/QIotLinkKit-Example.ipa'
+2020-06-09 02:29:20 +0000  >>> Copying /var/folders/hg/dr69251j0633c3xhpkc26zgw0000gn/T/XcodeDistPipeline.~~~MtrFRz/Root 
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/_CodeSignature/CodeResources ... 
+2020-06-09 02:29:20 +0000  5822 bytes for ./Payload/QIotLinkKit_Example.app/_CodeSignature/CodeResources
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/en.lproj/InfoPlist.strings ... 
+42 bytes for ./Payload/QIotLinkKit_Example.app/en.lproj/InfoPlist.strings
+copying file ./Payload/QIotLinkKit_Example.app/QIotLinkKit_Example ... 
+2020-06-09 02:29:20 +0000  169072 bytes for ./Payload/QIotLinkKit_Example.app/QIotLinkKit_Example
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-09 02:29:20 +0000  1832 bytes for ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-09 02:29:20 +0000  258 bytes for ./Payload/QIotLinkKit_Example.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/QIotLinkKit_Example.app/Main.storyboardc/whP-gf-Uak-view-TpU-gO-2f1.nib ... 
+2020-06-09 02:29:20 +0000  1832 bytes for ./Payload/QIotLinkKit_Example.app/Main.storyboardc/whP-gf-Uak-view-TpU-gO-2f1.nib
+copying file ./Payload/QIotLinkKit_Example.app/Main.storyboardc/UIViewController-whP-gf-Uak.nib ... 
+2020-06-09 02:29:20 +0000  920 bytes for ./Payload/QIotLinkKit_Example.app/Main.storyboardc/UIViewController-whP-gf-Uak.nib
+copying file ./Payload/QIotLinkKit_Example.app/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/QIotLinkKit_Example.app/Main.storyboardc/Info.plist
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/_CodeSignature/CodeResources
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit ... 
+2020-06-09 02:29:20 +0000  203520 bytes for ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/QIotLinkKit
+copying file ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/Info.plist ... 
+2020-06-09 02:29:20 +0000  745 bytes for ./Payload/QIotLinkKit_Example.app/Frameworks/QIotLinkKit.framework/Info.plist
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/embedded.mobileprovision ... 
+2020-06-09 02:29:20 +0000  17311 bytes for ./Payload/QIotLinkKit_Example.app/embedded.mobileprovision
+2020-06-09 02:29:20 +0000  copying file ./Payload/QIotLinkKit_Example.app/Info.plist ... 
+1180 bytes for ./Payload/QIotLinkKit_Example.app/Info.plist
+copying file ./Payload/QIotLinkKit_Example.app/PkgInfo ... 
+2020-06-09 02:29:20 +0000  8 bytes for ./Payload/QIotLinkKit_Example.app/PkgInfo
+2020-06-09 02:29:20 +0000 [MT] /usr/bin/ditto exited with 0
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2020-06-09 02:29:20 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-06-09 02:29:20 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
