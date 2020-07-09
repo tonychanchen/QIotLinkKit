@@ -1,0 +1,21 @@
+name: deploy_to_cocoapods
+
+on:
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
+  
+jobs:
+  build-and-deploy:
+    runs-on: macOS-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+    - name: Deploy to Cocoapods
+      run: |
+        set -eo pipefail
+        pod lib lint --allow-warnings
+        pod trunk push --allow-warnings
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
