@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>QIotLinkKit-Example.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1</string>
+				<key>dateExpires</key>
+				<string>2021/6/4</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>7C2B3C46D313DDEC431A196E6CA4C94A1F3E49C1</string>
+						<key>dateExpires</key>
+						<string>2021/6/4</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>QIotLinkKit.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>89W69LHLD3</string>
+						<key>name</key>
+						<string></string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>89W69LHLD3.com.tencent.iot.test</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>89W69LHLD3</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>89W69LHLD3.com.tencent.iot.test</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>QIotLinkKit_Example.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>edab80d0-609e-4f98-be56-9ea063d9e2b7</string>
+				<key>name</key>
+				<string>iot_dev_test</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>89W69LHLD3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
