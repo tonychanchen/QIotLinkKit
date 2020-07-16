@@ -1,0 +1,30 @@
+name: deploy_to_cocoapods
+
+on:
+  push:
+    tags:
+      - 'v*'
+  schedule:
+    - cron: '0 22 * * *' #每天在国际标准时间22点（北京时间早上6点）运行。
+    
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'checkout codes'
+      uses: actions/checkout@v1
+    - name: get weather report
+      run: |
+        bash .github/weather.sh
+    - name: 'Send mail'
+      uses: dawidd6/action-send-mail@master
+      with:
+        serveraddress: smtp.163.com
+        serverport: 465
+        username: ${{ secrets.MAILUSERNAME }}
+        password: ${{ secrets.MAILPASSWORD }}
+        subject: xian Weather Report
+        body: file://result.html
+        to: 317476057@163.com
+        from: GitHub Actions
+        content_type: text/html

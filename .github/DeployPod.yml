@@ -3,8 +3,10 @@ name: deploy_to_cocoapods
 on:
   push:
     tags:
-      - '*'
-  
+      - 'v*'
+  schedule:
+    - cron: '0 22 * * *' #每天在国际标准时间22点（北京时间早上6点）运行。
+    
 jobs:
   build-and-deploy:
     runs-on: macOS-latest
