@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v1
     - name: get weather report
       run: |
-        bash .github/weather.sh
+        curl -o result.html wttr.in/xian
     - name: 'Send mail'
       uses: dawidd6/action-send-mail@master
       with:
