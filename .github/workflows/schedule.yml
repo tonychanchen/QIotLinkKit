@@ -20,9 +20,9 @@ jobs:
       uses: dawidd6/action-send-mail@master
       with:
         server_address: smtp.163.com
-        server_port: 465
-        username: ${{secrets.MAILUSERNAME}}
-        password: ${{secrets.MAILPASSWORD}}
+        server_port: 465
+        username: ${{ secrets.MAILUSERNAME }}
+        password: ${{ secrets.MAILPASSWORD }}
         subject: xian Weather Report
         body: file://result.html
         to: 317476057@163.com
