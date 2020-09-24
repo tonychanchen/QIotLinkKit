@@ -1,0 +1,17 @@
+name: test_version
+
+#on: [push, pull_request]
+on:
+  check_run:
+    types: [rerequested, requested_action]
+    
+jobs:
+  save-version:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'checkout codes'
+      uses: actions/checkout@v1
+    - name: pull version
+      run: |
+        os.system('git reset --hard')
+        os.system('git pull')

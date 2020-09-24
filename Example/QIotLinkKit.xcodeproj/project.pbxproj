@@ -18,6 +18,7 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F47A68D62512337F00A9C085 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = F47A68D82512337F00A9C085 /* check.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,9 @@
 		B4BCC75CE95428726C456928 /* Pods-QIotLinkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIotLinkKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-QIotLinkKit_Example/Pods-QIotLinkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D7CD6436EE15668C226E0FE6 /* Pods-QIotLinkKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIotLinkKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QIotLinkKit_Tests/Pods-QIotLinkKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DC02CD07AF25E99EE34A61C2 /* Pods-QIotLinkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIotLinkKit_Example.release.xcconfig"; path = "Target Support Files/Pods-QIotLinkKit_Example/Pods-QIotLinkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F47A68D72512337F00A9C085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/check.png; sourceTree = "<group>"; };
+		F47A68D92512338500A9C085 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/check.png; sourceTree = "<group>"; };
+		F47A68DA2512338800A9C085 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/check.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* QIotLinkKit-Prefix.pch */,
+				F47A68D82512337F00A9C085 /* check.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47A68D62512337F00A9C085 /* check.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -317,6 +323,16 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F47A68D82512337F00A9C085 /* check.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47A68D72512337F00A9C085 /* Base */,
+				F47A68D92512338500A9C085 /* English */,
+				F47A68DA2512338800A9C085 /* en */,
+			);
+			name = check.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
