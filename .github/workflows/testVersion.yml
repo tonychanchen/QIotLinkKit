@@ -16,10 +16,10 @@ jobs:
           GITHUB_TILT_CONTEXT: ${{ github.event.release.name }}
         run: |
           echo "Hello ${{ github.event.release.name }}!"
-#          echo "json -- $GITHUB_CONTEXT"
           echo "jsonttle -- $GITHUB_TILT_CONTEXT"
-        
-      
+ 
+ 
+#echo "json -- $GITHUB_CONTEXT"
 #jobs:
 #  save-version:
 #    runs-on: ubuntu-latest
